@@ -53,20 +53,36 @@
 
 .backgrouimgg{
   background-image: url("./public/Bunch\ of\ gift\ boxes.png");
+  background-position: left;
   background-repeat: no-repeat;
+
   background-size: contain;
-  height: 100px;
+  height: 500px;
   width: 100%;
-  margin-bottom: 700px;
+  margin-bottom: 100px;
 }
 
 .womanside{
   width: 390px;
   height: 560px;
 }
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
+
+
+
 @media not all and (min-width: 576px) {
   .womanside{
     width: 100%;
     height: 560px;
+  }
+  .backgrouimgg{
+    height: 700px;
+    margin-bottom: 100px;
   }
 }

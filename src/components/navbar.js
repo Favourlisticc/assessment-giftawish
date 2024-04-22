@@ -34,7 +34,20 @@ const Navbar = () => {
         className="w-52 h-32 mt-3 max-sm:w-32"
       />
       <div className="mt-16 pt-2">
-        {/* Links */}
+      <div className="flex  items-center max-sm:hidden">
+                <Link className="font-semibold hover:border-b-4 border-b-orange-500 ml-16">
+                  Home
+                </Link>
+                <Link className="font-semibold hover:border-b-4 border-b-orange-500 ml-8">
+                  Browse Gifts
+                </Link>
+                <Link className="font-semibold hover:border-b-4  border-b-orange-500 ml-8">
+                  How it Works
+                </Link>
+                <Link className="font-semibold hover:border-b-4 border-b-orange-500 ml-8">
+                  Our story
+                </Link>
+              </div>
         <div
           className={`${
             isOpen ? "block" : "hidden"
@@ -43,7 +56,7 @@ const Navbar = () => {
           <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
             <div className="m-auto p-4 bg-white rounded-lg shadow-lg h-full w-full max-sm:w-full">
               <button
-                className="absolute top-4 right-4 text-gray-600 hover:text-gray-800"
+                className="absolute top-4 text-gray-600 hover:text-gray-800"
                 onClick={toggleMenu}
                 aria-label="Close Menu"
               >
@@ -80,16 +93,16 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="ml-36 mt-16 max-sm:ml-0">
+      <div className="ml-36 mt-16 max-sm:ml-8">
         <button
           type="button"
-          className="text-white bg-[#DD6421] hover:bg-[#DD6421]/80 focus:outline-none focus:ring-4 focus:ring-orange-500 font-medium rounded-full text-sm max-sm:text-xs px-6 py-2 max-sm:px-3 text-center me-2 max mb-2 dark:focus:ring-orange-900"
+          className="text-white drop-shadow-md hover:drop-shadow-xl bg-[#DD6421] hover:bg-[#DD6421]/80 focus:outline-none focus:ring-4 focus:ring-orange-500 font-medium rounded-full text-sm max-sm:text-xs px-6 py-2 max-sm:px-3 text-center me-2 max mb-2 dark:focus:ring-orange-900"
         >
           SIGN UP
         </button>
         <button
           type="button"
-          className="text-white bg-[#DD6421] ml-5 hover:bg-[#DD6421]/80 focus:outline-none focus:ring-4 focus:ring-orange-500 font-medium rounded-full text-sm max-sm:text-xs px-6 py-2 max-sm:px-3 text-center me-2  mb-2 dark:focus:ring-orange-900"
+          className="text-white drop-shadow-md hover:drop-shadow-xl bg-[#DD6421] ml-5 hover:bg-[#DD6421]/80 focus:outline-none focus:ring-4 focus:ring-orange-500 font-medium rounded-full text-sm max-sm:text-xs px-6 py-2 max-sm:px-3 text-center me-2  mb-2 dark:focus:ring-orange-900"
         >
           LOG IN
         </button>
@@ -97,7 +110,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Button */}
       <button
-        className="block sm:hidden"
+        className="block sm:hidden ml-2 mt-3"
         onClick={toggleMenu}
         aria-label="Toggle Menu"
       >
