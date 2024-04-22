@@ -130,7 +130,7 @@ function App() {
     <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0 ml-5 mt-9">
-                <a href="https://flowbite.com" class="flex items-center">
+                <a href="/" class="flex items-center">
                     <img src={Logo} class="mr-3 h-20 w-36" alt="FlowBite Logo" />
                 </a>
             </div>
@@ -139,13 +139,13 @@ function App() {
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="https://flowbite.com" class="hover:border-b-4 border-b-orange-500">Home</a>
+                            <a href="/" class="hover:border-b-4 border-b-orange-500">Home</a>
                         </li>
                         <li class="mb-4">
-                            <a href="https://flowbite.com" class="hover:border-b-4 pb-1 border-b-orange-500">Browse</a>
+                            <a href="/" class="hover:border-b-4 pb-1 border-b-orange-500">Browse</a>
                         </li>
                         <li class="mb-4">
-                            <a href="https://flowbite.com" class="hover:border-b-4 pb-1 border-b-orange-500">How it works</a>
+                            <a href="/" class="hover:border-b-4 pb-1 border-b-orange-500">How it works</a>
                         </li>
                         <li>
                             <a href="https://tailwindcss.com/" class="hover:border-b-4 pb-1 border-b-orange-500">Tell a Friend</a>
@@ -156,13 +156,13 @@ function App() {
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About Us</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="https://flowbite.com" class="hover:border-b-4 pb-1 border-b-orange-500">Our Story</a>
+                            <a href="/" class="hover:border-b-4 pb-1 border-b-orange-500">Our Story</a>
                         </li>
                         <li class="mb-4">
-                            <a href="https://flowbite.com" class="hover:border-b-4 pb-1 border-b-orange-500">Community</a>
+                            <a href="/" class="hover:border-b-4 pb-1 border-b-orange-500">Community</a>
                         </li>
                         <li class="mb-4">
-                            <a href="https://flowbite.com" class="hover:border-b-4 pb-1 border-b-orange-500">Terms & condition</a>
+                            <a href="/" class="hover:border-b-4 pb-1 border-b-orange-500">Terms & condition</a>
                         </li>
 
                     </ul>
