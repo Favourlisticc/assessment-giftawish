@@ -27,13 +27,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="text-black flex mt-3 pl-16 max-sm:pl-0 relative">
+    <div className="text-black flex mt-3 max-sm:mt-0 pl-16 max-sm:pl-0 relative">
       <img
         src={Logo}
         alt="Logo"
-        className="w-52 h-32 mt-3 max-sm:w-32"
+        className="w-52 h-32 mt-3 max-sm:mt-0 max-sm:w-32"
       />
-      <div className="mt-16 pt-2">
+      <div className="mt-16 max-sm:mt-0 pt-2 max-sm:pt-0">
       <div className="flex  items-center max-sm:hidden">
                 <Link className="font-semibold hover:border-b-4 border-b-orange-500 ml-16">
                   Home
@@ -93,10 +93,10 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="ml-36 mt-16 max-sm:ml-8">
+      <div className="ml-36 mt-16 max-sm:mt-12 max-sm:ml-8">
         <button
           type="button"
-          className="text-white drop-shadow-md hover:drop-shadow-xl bg-[#DD6421] hover:bg-[#DD6421]/80 focus:outline-none focus:ring-4 focus:ring-orange-500 font-medium rounded-full text-sm max-sm:text-xs px-6 py-2 max-sm:px-3 text-center me-2 max mb-2 dark:focus:ring-orange-900"
+          className="text-white hover:animate-spin drop-shadow-md hover:drop-shadow-xl bg-[#DD6421] hover:bg-[#DD6421]/80 focus:outline-none focus:ring-4 focus:ring-orange-500 font-medium rounded-full text-sm max-sm:text-xs px-6 py-2 max-sm:px-3 text-center me-2 max mb-2 dark:focus:ring-orange-900"
         >
           SIGN UP
         </button>
@@ -110,9 +110,10 @@ const Navbar = () => {
 
       {/* Mobile Menu Button */}
       <button
-        className="block sm:hidden ml-2 mt-3"
+        className="block sm:hidden mt-3 max-sm:mt-0"
         onClick={toggleMenu}
         aria-label="Toggle Menu"
+        style={{marginLeft: "8%"}}
       >
         <svg
           className="h-6 w-6"

@@ -78,13 +78,13 @@ function App() {
 
       <div className='backgrouimgg pl-96 max-sm:pl-0'>
         <h1 className='font-bold text-5xl text-[#DD6421] max-sm:text-4xl max-sm:text-center'>HOW IT WORKS</h1>
-        <p className='mb-10 ml-3 mt-1 max-sm:text-sm max-sm:text-center'>Search for items and make wishes that you desire</p>
+        <p className='mb-10 max-sm:mb-2 ml-3 mt-1 max-sm:text-sm max-sm:text-center'>Search for items and make wishes that you desire</p>
 
         <div className='flex max-sm:flex-col max-sm:mx-5'>
            <div>
 
-           <div className='flex shadow-xl rounded-2xl w-96 max-sm:w-full p-2 mb-10'>
-              <div className='bg-orange-500 rounded-full w-9 h-9'>
+           <div className='flex shadow-xl rounded-2xl w-96 max-sm:w-full p-2 mb-10 max-sm:mb-5 '>
+              <div className='bg-orange-500 rounded-full w-9 h-9 animate-bounce'>
               <img src={wresltinh} alt='' className='w-9'/>
               </div>
 
@@ -95,8 +95,8 @@ function App() {
                </div>
             </div>
 
-            <div className='flex shadow-xl rounded-2xl w-96 max-sm:w-full p-2 mb-10'>
-              <div className='bg-orange-500 rounded-full w-9 h-9'>
+            <div className='flex shadow-xl rounded-2xl w-96 max-sm:w-full p-2 mb-10 max-sm:mb-5'>
+              <div className='bg-orange-500 rounded-full w-9 h-9 animate-bounce'>
               <img src={gift} alt=''className='w-9'/>
               </div>
                 <div className='pt-5 pl-3'>
@@ -105,8 +105,8 @@ function App() {
                 </div>
             </div>
 
-          <div  className='flex shadow-xl rounded-2xl w-96 p-2 max-sm:w-full mb-10'>
-             <div className='bg-orange-500 rounded-full w-9 h-9'>
+          <div  className='flex shadow-xl rounded-2xl w-96 p-2 max-sm:w-full mb-10 max-sm:mb-5'>
+             <div className='bg-orange-500 rounded-full w-9 h-9 animate-bounce'>
              <img src={addfriend} alt='' className='w-9'/>
              </div>
                 <div className='pt-5 pl-3'>
@@ -117,8 +117,8 @@ function App() {
            </div>
 
             <div className='ml-6 mt-10 max-sm:ml-0 max-sm:mt-0'>
-            <div  className='flex shadow-xl rounded-2xl w-96 p-2 mb-10 max-sm:w-full'>
-              <div className='bg-orange-500 rounded-full w-12 h-8'>
+            <div  className='flex shadow-xl rounded-2xl w-96 p-2 mb-10 max-sm:mb-5 max-sm:w-full'>
+              <div className='bg-orange-500 rounded-full w-12 h-8 animate-bounce' >
               <img src={message} alt='' className='w-32'/>
               </div>
 
@@ -127,8 +127,8 @@ function App() {
                 <p className='font-semibold'>Connect with friends and family for a more social gifting experience</p>
                </div>
             </div>
-            <div  className='flex shadow-xl rounded-2xl w-96 p-2 mb-10 max-sm:w-full'>
-             <div className='bg-orange-500 rounded-full w-9 h-9'>
+            <div  className='flex shadow-xl rounded-2xl w-96 p-2 mb-10 max-sm:mb-0 max-sm:w-full'>
+             <div className='bg-orange-500 rounded-full w-9 h-9 animate-bounce'>
              <img src={shopping} alt='' className='w-9'/>
              </div>
                <div className='pt-5 pl-3'>
@@ -142,8 +142,8 @@ function App() {
       </div>
 
 
-      <div className='bg-[#FFE5B482] h-full text-center mt-auto pt-16 pb-20 bordercurve-2'>
-          <div className='mb-20'>
+      <div className='bg-[#FFE5B482] h-full text-center pt-16 max-sm:pt-5 pb-20 max-sm:pb-2 bordercurve-2'>
+          <div className='mb-20 max-sm:mb-5'>
             <h1 className='font-bold text-2xl '>CREATE AN ACCOUNT</h1>
             <p className='font-semibold mx-96 mt-5 mb-3 max-sm:mx-1'>Create a free account to create your wishes, gift registries, build meaningful friendships, check your activities, order history and unlock the full gifting experience</p>
             <button type="button" class=" mt-7 drop-shadow-md hover:drop-shadow-xl focus:outline-none text-white bg-[#DD6421] hover:bg-[#DD6421]/80 focus:ring-2 focus:ring-[#DD6421]/60 font-medium rounded-xl text-sm px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-900">GET STARTED</button>
